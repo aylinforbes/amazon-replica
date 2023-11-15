@@ -1,0 +1,92 @@
+/* Bordered form */
+img {
+  margin-left:43%;
+  margin-bottom:1%;
+  margin-top:1%;
+}
+form {
+    border: 3px solid #f1f1f1;
+    box-sizing: border-box;
+    width:18%;
+    margin-left:35%;
+  }
+  
+  
+  input[type=text], input[type=password] {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  
+    button {
+    background-color: rgb(227, 227, 88);
+    color: black;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 1.0;
+  }
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 0px;
+  }
+ .create {
+    border: none;
+    box-sizing: border-box;
+    width:18%;
+    margin-left:35%;
+  }
+  section button{
+    background-color:lightgrey;
+    border-color:black;
+  }
+  hr.solid {
+    border-top: 1px solid #bbb;
+  }
+  .navbar {
+	  overflow: hidden;
+	  width: 600px;
+	  margin: auto;
+	}
+	/* Style the links inside the navigation bar */
+	.navbar a {
+	  float: left;
+	  text-align: center;
+	  padding: 10px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+  footer{
+    width:1800px;
+    background-color:white;
+    margin: 0px;
+    padding-bottom:5px;
+	  text-align: center;
+	  padding: 0px 0px;
+	  text-decoration: none;
+	  font-size: 14px;
+}
+
+
+  
+  
+ 
+  

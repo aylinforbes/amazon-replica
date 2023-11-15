@@ -1,0 +1,19 @@
+html, body{
+    height:100%;
+    margin:0%;
+}
+body{
+    background-color:darkgray;
+}
+                             /*navigation bar*/
+nav {
+    display:inline;
+    margin:0%;
+    
+}
+
+nav a:hover {
+    background-color:darkgrey;
+    color:red;
+    box-shadow:0 0 20px rgb(3, 73, 49);
+}
