@@ -1,20 +1,20 @@
 /* Bordered form */
 img {
-  margin-left:43%;
+  margin-left:47%;
   margin-bottom:1%;
   margin-top:1%;
 }
 form {
     border: 3px solid #f1f1f1;
     box-sizing: border-box;
-    width:18%;
+    width:30%;
     margin-left:35%;
   }
   
   
   input[type=text], input[type=password] {
     width: 100%;
-    padding: 10px 20px;
+    padding: 10px 25px;
     margin: 5px 0;
     display: inline-block;
     border: 2px solid #ccc;
@@ -49,10 +49,35 @@ form {
     padding-top: 0px;
   }
  .create {
+    padding-top:20px;
+    padding-bottom:10px;
     border: none;
     box-sizing: border-box;
-    width:18%;
+    width:30%;
     margin-left:35%;
+  }
+  .lineL {
+    width: 12%;
+    margin-right:2vw;
+    margin-bottom:5px;
+    height: 0;
+    border: 1px solid #a5a5a5;
+    display:inline-block;
+  }
+  .lineR {
+    width: 12%;
+    margin-left:2vw;
+    margin-bottom:5px;
+    height: 0;
+    border: 1px solid #a5a5a5;
+    display:inline-block;
+  }
+  .line {
+    margin-bottom:40px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    width:calc(70vw - 24px);
   }
   section button{
     background-color:lightgrey;
@@ -63,26 +88,24 @@ form {
   }
   .navbar {
 	  overflow: hidden;
-	  width: 600px;
+	  width: 350px;
 	  margin: auto;
 	}
-	/* Style the links inside the navigation bar */
+ /* Style the links inside the navigation bar */
 	.navbar a {
-	  float: left;
-	  text-align: center;
-	  padding: 10px 16px;
+	  margin:14px;
+	  padding: 5px;
 	  text-decoration: none;
-	  font-size: 17px;
+	  font-size: 15px;
+    text-align:center;
 	}
   footer{
-    width:1800px;
+    margin:10px;
     background-color:white;
-    margin: 0px;
-    padding-bottom:5px;
+    padding:5px;
 	  text-align: center;
-	  padding: 0px 0px;
 	  text-decoration: none;
-	  font-size: 14px;
+	  font-size: 15px;
 }
 
 
